@@ -1,0 +1,22 @@
+{
+  "id": "direct-ai-control",
+  "name": "Direct AI Control",
+  "version": "0.1.0",
+  "url": "local:direct-ai-control",
+  "backend_entrypoint": "shtab_direct_ai_control.main:register",
+  "frontend": {
+    "entry": "frontend/index.js",
+    "pages": [
+      { "path": "/plugins/direct-ai-control", "element": "shtab-direct-ai-control" }
+    ],
+    "menu_items": [
+      {
+        "slot": "sidebar.main",
+        "path": "/plugins/direct-ai-control",
+        "title": "Direct AI Control",
+        "icon": "plugin",
+        "order": 40
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and data
+.env
+.env.*
+!.env.example
+!.env.*.example
+.local/
+secrets/
+*.pem
+*.key
+*.pfx
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# UI build cache (frontend/index.js is shipped)
+node_modules/
+.vite/
+.next/
+*.tsbuildinfo
+playwright-report/
+test-results/
